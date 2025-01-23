@@ -6,7 +6,7 @@ from datetime import datetime
 current_time = datetime.now()
 print(current_time)
 
-DISTANCE_THRESHOLD = 500
+DISTANCE_THRESHOLD = 1000
 
 # 只保留一种单位的数据
 df_mp = pd.read_csv("USA/MicroPlastic.csv")
@@ -68,7 +68,7 @@ def myJoin(row, df2, period):
 	global_count += 1
 	if global_count % 10 == 0:
 		global_count = 0
-		print("-", end="")
+		print("-", end="", flush=True)
 	return result
 
 
