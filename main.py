@@ -1,5 +1,11 @@
 import pandas as pd
 from geopy.distance import geodesic
+from datetime import datetime
+
+# 获取当前时间
+current_time = datetime.now()
+print(current_time)
+
 DISTANCE_THRESHOLD = 500
 
 # 只保留一种单位的数据
@@ -41,7 +47,10 @@ df2 = df_mp
 
 
 def myCondition(row, row_in_df1, period):
-	return is_within_distance(row_in_df1, row, DISTANCE_THRESHOLD) and is_within_period(row_in_df1, row, period)
+	if is_within_period(row_in_df1, row, period):
+		if is_within_distance(row_in_df1, row, DISTANCE_THRESHOLD):
+			return True
+	return False
 
 
 global_count = 0
@@ -69,5 +78,7 @@ for i in range(5):
 	df1[f'mp{i + 1}'] = df1.apply(lambda row: myJoin(row, df2, i), axis=1)
 
 df1.to_csv("final1_test.csv")
-# 打印结果
-print(df1)
+
+# 获取当前时间
+current_time = datetime.now()
+print(current_time)
