@@ -1,0 +1,6 @@
+出生 6 月
+period 0 =           9 ~ 11
+period 1 =           6 ~ 8
+period 2 = 1~3月 3 ~ 5
+period 3 = 4~6月 0 ~ 2
+period 4 = 7~8月   -3 ~ -1

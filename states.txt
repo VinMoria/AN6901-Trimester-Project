@@ -1,0 +1,27 @@
+东海岸（大西洋沿岸）
+缅因州 (Maine)
+新罕布什尔州 (New Hampshire)
+马萨诸塞州 (Massachusetts)
+罗得岛州 (Rhode Island)
+康涅狄格州 (Connecticut)
+纽约州 (New York)
+新泽西州 (New Jersey)
+特拉华州 (Delaware)
+马里兰州 (Maryland)
+弗吉尼亚州 (Virginia)
+北卡罗来纳州 (North Carolina)
+南卡罗来纳州 (South Carolina)
+乔治亚州 (Georgia)
+佛罗里达州 (Florida)
+
+西海岸（太平洋沿岸）
+华盛顿州 (Washington)
+俄勒冈州 (Oregon)
+加利福尼亚州 (California)
+
+墨西哥湾沿岸
+佛罗里达州 (Florida)
+阿拉巴马州 (Alabama)
+密西西比州 (Mississippi)
+路易斯安那州 (Louisiana)
+德克萨斯州 (Texas)
