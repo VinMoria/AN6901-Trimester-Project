@@ -31,8 +31,8 @@ def is_within_period(row1, row2, period):
 	year_diff = row1["birth_year"] - row2["mp_year"]
 	month_diff = row1["birth_month"] - row2["mp_month"]
 	diff = year_diff * 12 + month_diff
-	left = 9 - 3 * period
-	right = 11 - 3 * period
+	left = 9 - 3 * period + 1
+	right = 11 - 3 * period + 1
 	return left <= diff <= right
 
 
